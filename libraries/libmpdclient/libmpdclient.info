@@ -1,7 +1,7 @@
 PRGNAM="libmpdclient"
 VERSION="2.24"
 HOMEPAGE="https://github.com/MusicPlayerDaemon/libmpdclient"
-DOWNLOAD="https://github.com/MusicPlayerDaemon/libmpdclient/archive/refs/tags/v2.24.tar.gz"
+DOWNLOAD="https://github.com/MusicPlayerDaemon/libmpdclient/archive/v2.24/libmpdclient-2.24.tar.gz"
 MD5SUM="ba3a96e9eabde561d572568216ebe496"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
