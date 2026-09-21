@@ -4,38 +4,42 @@ Here are some of my SlackBuilds for Slackware Linux.
 
 ### Audio
 
-* mpc
-* ncmpc
+- mpc
+- ncmpc
 
 ### Desktop
 
-* arandr
-* pekwm
+- arandr
+- pekwm
 
 ### Development
 
- * sbcl
+- sbcl
 
 ### Games
 
- * atank
- * scummvm
- * widelands
+- atank
+- scummvm
+- widelands
 
 ### Graphics
 
- * nsxiv
- * pngrsuh
- * sxiv
+- nsxiv
+- pngrsuh
+- sxiv
 
 ### Libraries
 
- * libmpdclient
+- libmpdclient
+
+### network
+
+- slowhttptest
 
 ### System
 
- * AnonymousPro
- * Iosevka
- * Iosevka-slab
- * avfs
- * worker
+- AnonymousPro
+- Iosevka
+- Iosevka-slab
+- avfs
+- worker
