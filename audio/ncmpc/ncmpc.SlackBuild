@@ -25,7 +25,7 @@
 cd $(dirname $0) ; CWD=$(pwd)
 
 PRGNAM=ncmpc
-VERSION=${VERSION:-0.53}
+VERSION=${VERSION:-0.54}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 PKGTYPE=${PKGTYPE:-tgz}
@@ -76,8 +76,8 @@ find -L . \
  \( -perm 666 -o -perm 664 -o -perm 640 -o -perm 600 -o -perm 444 \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
-# Temporary solution, needs a new GCC
-sed -i 's/constexpr std::span/std::span/g' src/net/IPv4Address.hxx src/net/IPv6Address.hxx
+# Temporary path, to solve problem with compiling
+patch -p1 < $CWD/fix-constexpr.patch
 
 cd build
   CFLAGS="$SLKCFLAGS" \
